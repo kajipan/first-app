@@ -1,7 +1,7 @@
 import React from "react"
 
-function greet() {
+function Greet() {
     return <h1>Hello kaji</h1>
 }
 
-export default greet
+export default Greet
