@@ -1,15 +1,16 @@
-import react from 'react'
+import React from 'react'
 
 const Hello = () => {
     return (
-        <div class name='dummyClass'>
-            <h1>Hello kajis</h1>
+        <div className='dummyClass'>
+            <h1>Hello kaji</h1>
         </div>
     )
     return React.createElement(
         'div',
         null,
-        React.createElement('h1',null,'Hello kajis')
+        {id: 'hello',className: 'dummyClass'},
+        React.createElement('h1',null,'Hello kaji')
     )
 }
 
