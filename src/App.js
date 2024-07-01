@@ -12,18 +12,19 @@ function App() {
       <Counter />
       {/* <Message/> */}
       {/* <Greet name="Bruce" heroName="Batman">
-      <p>This is children props</p>
-      </Greet>      
+        <p>This is children props</p>
+      </Greet>       
       <Greet name="Clark " heroName="Superman">
         <button>Action</button>
-      </Greet>
-      <Greet name="Diana " heroName="wonderwomen"/>
-      <Welcome name="Bruce" heroName="Batman"/>
-      <Welcome name="Clark " heroName="Superman"/>
-      <Welcome name="Diana " heroName="wonderwomen"/>
+      </Greet> */}
+      <Greet name="Diana " heroName="wonderwomen"/> 
+      <Welcome name="Bruce" heroName="Batman"/> 
+      {/*<Welcome name="Clark " heroName="Superman"/>
+      <Welcome name="Diana " heroName="wonderwomen"/> */}
       {/* <Hello/> */}
     </div>
   );
 }
+
 
 export default App;
