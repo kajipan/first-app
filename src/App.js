@@ -4,10 +4,12 @@ import './App.css';
 import Greet from './components/greet';
 import Welcome from './components/welcome';
 import Hello from './components/hello';
+import Message from './components/message';
 function App() {
   return (
     <div className="App">
-      <Greet name="Bruce" heroName="Batman">
+      <Message/>
+      {/* <Greet name="Bruce" heroName="Batman">
       <p>This is children props</p>
       </Greet>      
       <Greet name="Clark " heroName="Superman">
