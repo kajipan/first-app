@@ -13,11 +13,13 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Person from './components/Person';
+import Stylesheet from './components/Stylesheet';
 
 function App() {
   return (
     <div className="App">
-      <Person />
+      <Stylesheet primary={true} />
+     {/* <Person />
       <NameList />
       {/*<UserGreeting /> }
       {/*<ParentComponent/> }
